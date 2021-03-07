@@ -1,11 +1,11 @@
 <!DOCTYPE KTechlab>
 <project>
- <item type="File" name="transistor_common_base" url="transistor_common_base">
-  <linker other="" linker-script="" hex-format="inhx32" output-map-file="0" library-dir=""/>
-  <processing output=".hex" micro="P16F84"/>
+ <item url="transistor_common_base" type="File" name="transistor_common_base">
+  <linker other="" library-dir="" hex-format="inhx32" linker-script="" output-map-file="0"/>
+  <processing micro="P16F84" output=".hex"/>
  </item>
- <item type="File" name="123.circuit" url="123.circuit">
-  <linker other="" linker-script="" hex-format="inhx32" output-map-file="0" library-dir=""/>
-  <processing output="123.hex" micro="P16F84"/>
+ <item url="123.circuit" type="File" name="123.circuit">
+  <linker other="" library-dir="" hex-format="inhx32" linker-script="" output-map-file="0"/>
+  <processing micro="P16F84" output="123.hex"/>
  </item>
 </project>
