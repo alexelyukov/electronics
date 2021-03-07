@@ -1,0 +1,60 @@
+<!DOCTYPE KTechlab>
+<document type="circuit">
+ <item y="-60" type="ec/ammeter" x="380" id="ammeter" z="12" flip="0" angle="90">
+  <data type="number" id="0-minValue" value="0.001"/>
+  <data type="number" id="1-maxValue" value="1000"/>
+ </item>
+ <item y="100" type="ec/ammeter" x="132" id="ammeter__68" z="13" flip="0" angle="0">
+  <data type="number" id="0-minValue" value="0.001"/>
+  <data type="number" id="1-maxValue" value="1000"/>
+ </item>
+ <item y="164" type="ec/battery" x="84" id="cell" z="2" flip="0" angle="0">
+  <data type="number" id="voltage" value="-2"/>
+ </item>
+ <item y="-132" type="ec/battery" x="380" id="cell__208" z="5" flip="0" angle="90">
+  <data type="number" id="voltage" value="12"/>
+ </item>
+ <item y="164" type="ec/ground" x="28" id="ground" z="3" flip="0" angle="0"/>
+ <item y="100" type="ec/ground" x="28" id="ground__186" z="1" flip="0" angle="0"/>
+ <item y="-156" type="ec/ground" x="28" id="ground__214" z="6" flip="0" angle="0"/>
+ <item y="284" type="ec/ground" x="132" id="ground__256" z="10" flip="0" angle="270"/>
+ <item y="172" type="ec/ground" x="476" id="ground__259" z="11" flip="0" angle="270"/>
+ <item y="100" type="ec/npnbjt" x="372" id="npnbjt__180" z="0" flip="0" angle="0">
+  <data type="number" id="B_F" value="100"/>
+  <data type="number" id="B_R" value="1"/>
+  <data type="number" id="I_S" value="1e-16"/>
+  <data type="number" id="N_F" value="1"/>
+  <data type="number" id="N_R" value="1"/>
+ </item>
+ <item y="12" type="ec/resistor" x="380" id="resistor" z="4" flip="0" angle="90">
+  <data type="number" id="resistance" value="100.001"/>
+ </item>
+ <item y="164" type="ec/resistor" x="300" id="resistor__227" z="7" flip="0" angle="0">
+  <data type="number" id="resistance" value="10000"/>
+ </item>
+ <item y="220" type="ec/voltmeter" x="132" id="voltmeter" z="8" flip="0" angle="270">
+  <data type="number" id="0-minValue" value="0.001"/>
+  <data type="number" id="1-maxValue" value="1000"/>
+ </item>
+ <item y="100" type="ec/voltmeter" x="476" id="voltmeter__243" z="9" flip="0" angle="90">
+  <data type="number" id="0-minValue" value="0.001"/>
+  <data type="number" id="1-maxValue" value="1000"/>
+ </item>
+ <connector manual-route="0" route="59,15,59,16,59,17,59,18,59,19," start-node-cid="p1" id="connector" end-node-cid="p1" end-node-parent="ground__259" end-node-is-child="1" start-node-parent="voltmeter__243" start-node-is-child="1"/>
+ <connector manual-route="0" route="5,20,6,20,7,20,8,20," start-node-cid="p1" id="connector__197" end-node-cid="n1" end-node-parent="cell" end-node-is-child="1" start-node-parent="ground" start-node-is-child="1"/>
+ <connector manual-route="0" route="5,-20,6,-20,7,-20,8,-20,9,-20,10,-20,11,-20,12,-20,13,-20,14,-20,15,-20,16,-20,17,-20,18,-20,19,-20,20,-20,21,-20,22,-20,23,-20,24,-20,25,-20,26,-20,27,-20,28,-20,29,-20,30,-20,31,-20,32,-20,33,-20,34,-20,35,-20,36,-20,37,-20,38,-20,39,-20,40,-20,41,-20,42,-20,43,-20,44,-20,45,-20,46,-20,47,-20,47,-19," start-node-cid="p1" id="connector__216" end-node-cid="n1" end-node-parent="cell__208" end-node-is-child="1" start-node-parent="ground__214" start-node-is-child="1"/>
+ <connector manual-route="1" route="40,20,41,20,42,20,43,20,44,20,45,20,46,20,47,20,47,19,47,18,47,17,47,16,47,15,47,14," start-node-cid="p1" id="connector__231" end-node-cid="e" end-node-parent="npnbjt__180" end-node-is-child="1" start-node-parent="resistor__227" start-node-is-child="1"/>
+ <connector manual-route="1" route="47,-11,47,-12,47,-13,47,-14,47,-15," start-node-cid="n1" id="connector__24" end-node-cid="p1" end-node-parent="cell__208" end-node-is-child="1" start-node-parent="ammeter" start-node-is-child="1"/>
+ <connector manual-route="1" route="47,-5,47,-4,47,-3,47,-2," start-node-cid="p1" id="connector__25" end-node-cid="n1" end-node-parent="resistor" end-node-is-child="1" start-node-parent="ammeter" start-node-is-child="1"/>
+ <connector manual-route="0" route="16,33,16,32,16,31,16,30," start-node-cid="p1" id="connector__258" end-node-cid="n1" end-node-parent="voltmeter" end-node-is-child="1" start-node-parent="ground__256" start-node-is-child="1"/>
+ <connector manual-route="0" route="59,9,59,8,58,8,57,8,56,8,55,8,54,8,53,8,52,8,51,8,50,8,49,8,48,8,47,8," end-node-id="node1__262" start-node-cid="n1" id="connector__263" end-node-is-child="0" start-node-parent="voltmeter__243" start-node-is-child="1"/>
+ <connector manual-route="0" route="47,4,47,5,47,6,47,7,47,8," end-node-id="node1__262" start-node-cid="p1" id="connector__264" end-node-is-child="0" start-node-parent="resistor" start-node-is-child="1"/>
+ <connector manual-route="0" route="47,8,47,9,47,10," id="connector__265" end-node-cid="c" end-node-parent="npnbjt__180" end-node-is-child="1" start-node-id="node1__262" start-node-is-child="0"/>
+ <connector manual-route="1" route="16,24,16,23,16,22,16,21,16,20," end-node-id="node1" start-node-cid="p1" id="connector__62" end-node-is-child="0" start-node-parent="voltmeter" start-node-is-child="1"/>
+ <connector manual-route="1" route="12,20,13,20,14,20,15,20,16,20," end-node-id="node1" start-node-cid="p1" id="connector__63" end-node-is-child="0" start-node-parent="cell" start-node-is-child="1"/>
+ <connector manual-route="1" route="16,20,17,20,18,20,19,20,20,20,21,20,22,20,23,20,24,20,25,20,26,20,27,20,28,20,29,20,30,20,31,20,32,20,33,20,34,20," id="connector__64" end-node-cid="n1" end-node-parent="resistor__227" end-node-is-child="1" start-node-id="node1" start-node-is-child="0"/>
+ <connector manual-route="0" route="13,12,12,12,11,12,10,12,9,12,8,12,7,12,6,12,5,12," start-node-cid="n1" id="connector__71" end-node-cid="p1" end-node-parent="ground__186" end-node-is-child="1" start-node-parent="ammeter__68" start-node-is-child="1"/>
+ <connector manual-route="0" route="19,12,20,12,21,12,22,12,23,12,24,12,25,12,26,12,27,12,28,12,29,12,30,12,31,12,32,12,33,12,34,12,35,12,36,12,37,12,38,12,39,12,40,12,41,12,42,12,43,12,44,12," start-node-cid="p1" id="connector__72" end-node-cid="b" end-node-parent="npnbjt__180" end-node-is-child="1" start-node-parent="ammeter__68" start-node-is-child="1"/>
+ <node y="164" x="132" id="node1"/>
+ <node y="68" x="380" id="node1__262"/>
+</document>
