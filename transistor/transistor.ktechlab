@@ -1,11 +1,27 @@
 <!DOCTYPE KTechlab>
 <project>
- <item url="transistor_common_base" type="File" name="transistor_common_base">
+ <item url="transistor_common_base.circuit" type="File" name="transistor_common_base.circuit">
   <linker other="" library-dir="" hex-format="inhx32" linker-script="" output-map-file="0"/>
-  <processing micro="P16F84" output=".hex"/>
+  <processing micro="P16F84" output="transistor_common_base.hex"/>
  </item>
- <item url="123.circuit" type="File" name="123.circuit">
+ <item url="transistor_common_collector.circuit" type="File" name="transistor_common_collector.circuit">
   <linker other="" library-dir="" hex-format="inhx32" linker-script="" output-map-file="0"/>
-  <processing micro="P16F84" output="123.hex"/>
+  <processing micro="P16F84" output="transistor_common_collector.hex"/>
+ </item>
+ <item url="transistor_common_emitter.circuit" type="File" name="transistor_common_emitter.circuit">
+  <linker other="" library-dir="" hex-format="inhx32" linker-script="" output-map-file="0"/>
+  <processing micro="P16F84" output="transistor_common_emitter.hex"/>
+ </item>
+ <item url="transistor_not.circuit" type="File" name="transistor_not.circuit">
+  <linker other="" library-dir="" hex-format="inhx32" linker-script="" output-map-file="0"/>
+  <processing micro="P16F84" output="transistor_not.hex"/>
+ </item>
+ <item url="transistor_or.circuit" type="File" name="transistor_or.circuit">
+  <linker other="" library-dir="" hex-format="inhx32" linker-script="" output-map-file="0"/>
+  <processing micro="P16F84" output="transistor_or.hex"/>
+ </item>
+ <item url="transistor_and.circuit" type="File" name="transistor_and.circuit">
+  <linker other="" library-dir="" hex-format="inhx32" linker-script="" output-map-file="0"/>
+  <processing micro="P16F84" output="transistor_and.hex"/>
  </item>
 </project>

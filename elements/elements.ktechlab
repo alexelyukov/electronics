@@ -1,0 +1,11 @@
+<!DOCTYPE KTechlab>
+<project>
+ <item url="decoder.circuit" type="File" name="decoder.circuit">
+  <linker other="" library-dir="" hex-format="inhx32" linker-script="" output-map-file="0"/>
+  <processing micro="P16F84" output="decoder.hex"/>
+ </item>
+ <item url="coder.circuit" type="File" name="coder.circuit">
+  <linker other="" library-dir="" hex-format="inhx32" linker-script="" output-map-file="0"/>
+  <processing micro="P16F84" output="coder.hex"/>
+ </item>
+</project>
