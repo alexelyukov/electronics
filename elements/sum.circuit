@@ -1,0 +1,47 @@
+<!DOCTYPE KTechlab>
+<document type="circuit">
+ <item type="ec/and" id="and" y="124" x="292" angle="0" z="0" flip="0">
+  <data type="number" id="numInput" value="2"/>
+ </item>
+ <item type="ec/and" id="and__5" y="212" x="292" angle="0" z="1" flip="0">
+  <data type="number" id="numInput" value="2"/>
+ </item>
+ <item type="ec/and" id="and__56" y="300" x="292" angle="0" z="8" flip="0">
+  <data type="number" id="numInput" value="2"/>
+ </item>
+ <item type="ec/logic_input" id="logic_input__6" y="116" x="76" angle="0" z="2" flip="0">
+  <data type="bool" id="useToggle" value="1"/>
+  <button id="button" state="0"/>
+ </item>
+ <item type="ec/logic_input" id="logic_input__7" y="164" x="76" angle="0" z="3" flip="0">
+  <data type="bool" id="useToggle" value="1"/>
+  <button id="button" state="0"/>
+ </item>
+ <item type="ec/logic_output" id="logic_output" y="132" x="548" angle="0" z="7" flip="0"/>
+ <item type="ec/logic_output" id="logic_output__64" y="300" x="548" angle="0" z="10" flip="0"/>
+ <item type="ec/nor" id="nor" y="132" x="396" angle="0" z="6" flip="0">
+  <data type="number" id="numInput" value="2"/>
+ </item>
+ <item type="ec/inverter" id="not" y="164" x="164" angle="0" z="4" flip="0"/>
+ <item type="ec/inverter" id="not__8" y="116" x="164" angle="0" z="5" flip="0"/>
+ <connector end-node-is-child="1" id="connector__10" start-node-parent="not__8" route="22,14,23,14,24,14,25,14,26,14,27,14,28,14,29,14,30,14,31,14,32,14,33,14," start-node-is-child="1" manual-route="0" start-node-cid="p1" end-node-cid="in0" end-node-parent="and"/>
+ <connector end-node-is-child="1" id="connector__11" start-node-parent="not" route="22,20,23,20,23,19,23,18,23,17,23,16,24,16,25,16,26,16,27,16,28,16,29,16,30,16,31,16,32,16,33,16," start-node-is-child="1" manual-route="0" start-node-cid="p1" end-node-cid="in1" end-node-parent="and"/>
+ <connector end-node-is-child="0" id="connector__13" start-node-parent="logic_input__7" route="11,20,12,20,13,20,14,20,15,20,16,20," start-node-is-child="1" manual-route="1" start-node-cid="p1" end-node-id="node1"/>
+ <connector end-node-is-child="1" id="connector__14" start-node-id="node1" route="16,20,17,20,18,20," start-node-is-child="0" manual-route="1" end-node-cid="n1" end-node-parent="not"/>
+ <connector end-node-is-child="0" id="connector__15" start-node-parent="logic_input__6" route="11,14,12,14," start-node-is-child="1" manual-route="1" start-node-cid="p1" end-node-id="node1__9"/>
+ <connector end-node-is-child="1" id="connector__16" start-node-id="node1__9" route="12,14,13,14,14,14,15,14,16,14,17,14,18,14," start-node-is-child="0" manual-route="1" end-node-cid="n1" end-node-parent="not__8"/>
+ <connector end-node-is-child="1" id="connector__38" start-node-parent="and" route="39,15,40,15,41,15,42,15,43,15,44,15,45,15," start-node-is-child="1" manual-route="1" start-node-cid="p1" end-node-cid="in0" end-node-parent="nor"/>
+ <connector end-node-is-child="1" id="connector__39" start-node-parent="and__5" route="39,26,40,26,40,25,40,24,40,23,40,22,40,21,40,20,40,19,40,18,40,17,41,17,42,17,43,17,44,17,45,17," start-node-is-child="1" manual-route="1" start-node-cid="p1" end-node-cid="in1" end-node-parent="nor"/>
+ <connector end-node-is-child="1" id="connector__51" start-node-parent="nor" route="53,16,54,16,55,16,56,16,57,16,58,16,59,16,60,16,61,16,62,16,63,16,64,16,65,16,66,16," start-node-is-child="1" manual-route="0" start-node-cid="p1" end-node-cid="n1" end-node-parent="logic_output"/>
+ <connector end-node-is-child="1" id="connector__66" start-node-parent="and__56" route="39,37,40,37,41,37,42,37,43,37,44,37,45,37,46,37,47,37,48,37,49,37,50,37,51,37,52,37,53,37,54,37,55,37,56,37,57,37,58,37,59,37,60,37,61,37,62,37,63,37,64,37,65,37,66,37," start-node-is-child="1" manual-route="1" start-node-cid="p1" end-node-cid="n1" end-node-parent="logic_output__64"/>
+ <connector end-node-is-child="0" id="connector__68" start-node-parent="and__56" route="33,36,32,36,31,36,30,36,29,36,28,36,27,36,26,36,25,36,24,36,23,36,22,36,21,36,20,36,19,36,18,36,17,36,16,36,16,35,16,34,16,33,16,32,16,31,16,30,16,29,16,28,16,27,16,26,16,25," start-node-is-child="1" manual-route="1" start-node-cid="in0" end-node-id="node1__67"/>
+ <connector end-node-is-child="0" id="connector__69" start-node-parent="and__5" route="33,25,32,25,31,25,30,25,29,25,28,25,27,25,26,25,25,25,24,25,23,25,22,25,21,25,20,25,19,25,18,25,17,25,16,25," start-node-is-child="1" manual-route="1" start-node-cid="in0" end-node-id="node1__67"/>
+ <connector end-node-is-child="0" id="connector__70" start-node-id="node1__67" route="16,25,16,24,16,23,16,22,16,21,16,20," start-node-is-child="0" manual-route="1" end-node-id="node1"/>
+ <connector end-node-is-child="0" id="connector__72" start-node-parent="and__56" route="33,38,32,38,31,38,30,38,29,38,28,38,27,38,26,38,25,38,24,38,23,38,22,38,21,38,20,38,19,38,18,38,17,38,16,38,15,38,14,38,13,38,12,38,12,37,12,36,12,35,12,34,12,33,12,32,12,31,12,30,12,29,12,28,12,27," start-node-is-child="1" manual-route="1" start-node-cid="in1" end-node-id="node1__71"/>
+ <connector end-node-is-child="0" id="connector__73" start-node-parent="and__5" route="33,27,32,27,31,27,30,27,29,27,28,27,27,27,26,27,25,27,24,27,23,27,22,27,21,27,20,27,19,27,18,27,17,27,16,27,15,27,14,27,13,27,12,27," start-node-is-child="1" manual-route="1" start-node-cid="in1" end-node-id="node1__71"/>
+ <connector end-node-is-child="0" id="connector__74" start-node-id="node1__71" route="12,27,12,26,12,25,12,24,12,23,12,22,12,21,12,20,12,19,12,18,12,17,12,16,12,15,12,14," start-node-is-child="0" manual-route="1" end-node-id="node1__9"/>
+ <node id="node1" y="164" x="132"/>
+ <node id="node1__67" y="204" x="132"/>
+ <node id="node1__71" y="220" x="100"/>
+ <node id="node1__9" y="116" x="100"/>
+</document>

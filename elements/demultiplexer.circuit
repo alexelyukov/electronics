@@ -1,0 +1,69 @@
+<!DOCTYPE KTechlab>
+<document type="circuit">
+ <item type="ec/and" id="and" y="124" x="604" angle="0" z="5" flip="0">
+  <data type="number" id="numInput" value="3"/>
+ </item>
+ <item type="ec/and" id="and__25" y="212" x="604" angle="0" z="6" flip="0">
+  <data type="number" id="numInput" value="3"/>
+ </item>
+ <item type="ec/and" id="and__30" y="308" x="604" angle="0" z="7" flip="0">
+  <data type="number" id="numInput" value="3"/>
+ </item>
+ <item type="ec/and" id="and__35" y="396" x="604" angle="0" z="8" flip="0">
+  <data type="number" id="numInput" value="3"/>
+ </item>
+ <item type="ec/logic_input" id="logic_input" y="228" x="108" angle="0" z="0" flip="0">
+  <data type="bool" id="useToggle" value="1"/>
+  <button id="button" state="0"/>
+ </item>
+ <item type="ec/logic_input" id="logic_input__1" y="300" x="108" angle="0" z="1" flip="0">
+  <data type="bool" id="useToggle" value="1"/>
+  <button id="button" state="0"/>
+ </item>
+ <item type="ec/logic_input" id="logic_input__3" y="108" x="108" angle="0" z="2" flip="0">
+  <data type="bool" id="useToggle" value="1"/>
+  <button id="button" state="0"/>
+ </item>
+ <item type="ec/logic_output" id="logic_output" y="124" x="796" angle="0" z="9" flip="0"/>
+ <item type="ec/logic_output" id="logic_output__43" y="212" x="796" angle="0" z="10" flip="0"/>
+ <item type="ec/logic_output" id="logic_output__45" y="308" x="796" angle="0" z="11" flip="0"/>
+ <item type="ec/logic_output" id="logic_output__47" y="396" x="796" angle="0" z="12" flip="0"/>
+ <item type="ec/inverter" id="not" y="300" x="276" angle="0" z="3" flip="0"/>
+ <item type="ec/inverter" id="not__11" y="228" x="276" angle="0" z="4" flip="0"/>
+ <connector end-node-is-child="0" id="connector" start-node-parent="and__30" route="72,40,71,40,71,41,71,42,70,42,69,42,68,42,67,42,66,42,65,42,64,42,63,42,62,42,61,42,60,42,59,42,58,42,57,42,56,42,55,42,54,42,53,42,52,42,51,42,50,42,49,42,48,42,47,42,46,42,45,42,44,42,43,42,42,42,41,42,40,42,39,42,39,41,39,40,39,39,39,38,39,37," start-node-is-child="1" manual-route="1" start-node-cid="in2" end-node-id="node1__78"/>
+ <connector end-node-is-child="1" id="connector__42" start-node-parent="and" route="78,15,79,15,80,15,81,15,82,15,83,15,84,15,85,15,86,15,87,15,88,15,89,15,90,15,91,15,92,15,93,15,94,15,95,15,96,15,97,15," start-node-is-child="1" manual-route="1" start-node-cid="p1" end-node-cid="n1" end-node-parent="logic_output"/>
+ <connector end-node-is-child="1" id="connector__49" start-node-parent="and__25" route="78,26,79,26,80,26,81,26,82,26,83,26,84,26,85,26,86,26,87,26,88,26,89,26,90,26,91,26,92,26,93,26,94,26,95,26,96,26,97,26," start-node-is-child="1" manual-route="1" start-node-cid="p1" end-node-cid="n1" end-node-parent="logic_output__43"/>
+ <connector end-node-is-child="1" id="connector__50" start-node-parent="and__30" route="78,38,79,38,80,38,81,38,82,38,83,38,84,38,85,38,86,38,87,38,88,38,89,38,90,38,91,38,92,38,93,38,94,38,95,38,96,38,97,38," start-node-is-child="1" manual-route="1" start-node-cid="p1" end-node-cid="n1" end-node-parent="logic_output__45"/>
+ <connector end-node-is-child="1" id="connector__51" start-node-parent="and__35" route="78,49,79,49,80,49,81,49,82,49,83,49,84,49,85,49,86,49,87,49,88,49,89,49,90,49,91,49,92,49,93,49,94,49,95,49,96,49,97,49," start-node-is-child="1" manual-route="1" start-node-cid="p1" end-node-cid="n1" end-node-parent="logic_output__47"/>
+ <connector end-node-is-child="0" id="connector__54" start-node-parent="logic_input__3" route="15,13,16,13,17,13,18,13,19,13,20,13,21,13,22,13,23,13,24,13,25,13,26,13,27,13,28,13,29,13,30,13,31,13,32,13,33,13,34,13,35,13,36,13,37,13,38,13,39,13,40,13,41,13,42,13,43,13,44,13,45,13,46,13,47,13,48,13,49,13,50,13,51,13,52,13,53,13,54,13,55,13,56,13,57,13,58,13,59,13,60,13,61,13,62,13,63,13,64,13,65,13,66,13,67,13," start-node-is-child="1" manual-route="1" start-node-cid="p1" end-node-id="node1"/>
+ <connector end-node-is-child="1" id="connector__55" start-node-id="node1" route="67,13,68,13,69,13,70,13,71,13,72,13," start-node-is-child="0" manual-route="1" end-node-cid="in0" end-node-parent="and"/>
+ <connector end-node-is-child="0" id="connector__58" start-node-parent="and__25" route="72,24,71,24,70,24,69,24,68,24,67,24," start-node-is-child="1" manual-route="1" start-node-cid="in0" end-node-id="node1__56"/>
+ <connector end-node-is-child="0" id="connector__59" start-node-id="node1__56" route="67,24,67,23,67,22,67,21,67,20,67,19,67,18,67,17,67,16,67,15,67,14,67,13," start-node-is-child="0" manual-route="1" end-node-id="node1"/>
+ <connector end-node-is-child="0" id="connector__61" start-node-parent="and__35" route="72,47,71,47,70,47,69,47,68,47,67,47,67,46,67,45,67,44,67,43,67,42,67,41,67,40,67,39,67,38,67,37,67,36," start-node-is-child="1" manual-route="1" start-node-cid="in0" end-node-id="node1__60"/>
+ <connector end-node-is-child="0" id="connector__62" start-node-parent="and__30" route="72,36,71,36,70,36,69,36,68,36,67,36," start-node-is-child="1" manual-route="1" start-node-cid="in0" end-node-id="node1__60"/>
+ <connector end-node-is-child="0" id="connector__63" start-node-id="node1__60" route="67,36,67,35,67,34,67,33,67,32,67,31,67,30,67,29,67,28,67,27,67,26,67,25,67,24," start-node-is-child="0" manual-route="1" end-node-id="node1__56"/>
+ <connector end-node-is-child="0" id="connector__67" start-node-parent="and__25" route="72,26,71,26,71,27,71,28,70,28,69,28,68,28,67,28,66,28,65,28,64,28,63,28,62,28,61,28,60,28,59,28,58,28,57,28,56,28,55,28,54,28,53,28,52,28,51,28,50,28,49,28,48,28,47,28,46,28,45,28,44,28,43,28,42,28,41,28,40,28,39,28,38,28,37,28," start-node-is-child="1" manual-route="1" start-node-cid="in1" end-node-id="node1__66"/>
+ <connector end-node-is-child="0" id="connector__68" start-node-parent="not__11" route="36,28,37,28," start-node-is-child="1" manual-route="1" start-node-cid="p1" end-node-id="node1__66"/>
+ <connector end-node-is-child="1" id="connector__69" start-node-id="node1__66" route="37,28,37,27,37,26,37,25,37,24,37,23,37,22,37,21,37,20,37,19,37,18,37,17,37,16,37,15,38,15,39,15,40,15,41,15,42,15,43,15,44,15,45,15,46,15,47,15,48,15,49,15,50,15,51,15,52,15,53,15,54,15,55,15,56,15,57,15,58,15,59,15,60,15,61,15,62,15,63,15,64,15,65,15,66,15,67,15,68,15,69,15,70,15,71,15,72,15," start-node-is-child="0" manual-route="1" end-node-cid="in1" end-node-parent="and"/>
+ <connector end-node-is-child="0" id="connector__71" start-node-parent="and__25" route="72,28,71,28,71,29,71,30,70,30,69,30,68,30,67,30,66,30,65,30,65,31,65,32,65,33,65,34,65,35,65,36,65,37,65,38,65,39,65,40,64,40,63,40,62,40,61,40,60,40,59,40,58,40,57,40,56,40,55,40,54,40,53,40,52,40,51,40,50,40,49,40,48,40,47,40,46,40,45,40,44,40,43,40,42,40,41,40,40,40,39,40,38,40,37,40,36,40,35,40,34,40,33,40,32,40,31,40,30,40,29,40,28,40,27,40,26,40,25,40,24,40,23,40,23,39,23,38,23,37," start-node-is-child="1" manual-route="0" start-node-cid="in2" end-node-id="node1__70"/>
+ <connector end-node-is-child="1" id="connector__73" start-node-id="node1__70" route="23,37,24,37,25,37,26,37,27,37,28,37,29,37,30,37,31,37,32,37," start-node-is-child="0" manual-route="0" end-node-cid="n1" end-node-parent="not"/>
+ <connector end-node-is-child="0" id="connector__75" start-node-parent="and__30" route="72,38,71,38,70,38,69,38,68,38,67,38,66,38,65,38,64,38,63,38,63,37,63,36,63,35,63,34,62,34,61,34,60,34,59,34,58,34,57,34,56,34,55,34,54,34,53,34,52,34,51,34,50,34,49,34,48,34,47,34,46,34,45,34,44,34,43,34,42,34,41,34,40,34,39,34,38,34,37,34,36,34,35,34,34,34,33,34,32,34,31,34,30,34,29,34,28,34,27,34,26,34,25,34,25,33,25,32,25,31,25,30,25,29,25,28," start-node-is-child="1" manual-route="0" start-node-cid="in1" end-node-id="node1__74"/>
+ <connector end-node-is-child="1" id="connector__77" start-node-id="node1__74" route="25,28,26,28,27,28,28,28,29,28,30,28,31,28,32,28," start-node-is-child="0" manual-route="0" end-node-cid="n1" end-node-parent="not__11"/>
+ <connector end-node-is-child="0" id="connector__79" start-node-parent="not" route="36,37,37,37,38,37,39,37," start-node-is-child="1" manual-route="1" start-node-cid="p1" end-node-id="node1__78"/>
+ <connector end-node-is-child="1" id="connector__80" start-node-id="node1__78" route="39,37,39,36,39,35,39,34,39,33,39,32,39,31,39,30,39,29,39,28,39,27,39,26,39,25,39,24,39,23,39,22,39,21,39,20,39,19,39,18,39,17,40,17,41,17,42,17,43,17,44,17,45,17,46,17,47,17,48,17,49,17,50,17,51,17,52,17,53,17,54,17,55,17,56,17,57,17,58,17,59,17,60,17,61,17,62,17,63,17,64,17,65,17,66,17,67,17,68,17,69,17,70,17,71,17,72,17," start-node-is-child="0" manual-route="1" end-node-cid="in2" end-node-parent="and"/>
+ <connector end-node-is-child="0" id="connector__82" start-node-parent="and__35" route="72,49,71,49,70,49,69,49,68,49,67,49,66,49,65,49,64,49,63,49,62,49,61,49,60,49,59,49,58,49,57,49,56,49,55,49,54,49,53,49,52,49,51,49,50,49,49,49,48,49,47,49,46,49,45,49,44,49,43,49,42,49,41,49,40,49,39,49,38,49,37,49,36,49,35,49,34,49,33,49,32,49,31,49,30,49,29,49,28,49,27,49,26,49,25,49,24,49,23,49,22,49,21,49,20,49,19,49,18,49,17,49,17,48,17,47,17,46,17,45,17,44,17,43,17,42,17,41,17,40,17,39,17,38,17,37,17,36,17,35,17,34,17,33,17,32,17,31,17,30,17,29,17,28," start-node-is-child="1" manual-route="0" start-node-cid="in1" end-node-id="node1__81"/>
+ <connector end-node-is-child="0" id="connector__83" start-node-parent="logic_input" route="15,28,16,28,17,28," start-node-is-child="1" manual-route="0" start-node-cid="p1" end-node-id="node1__81"/>
+ <connector end-node-is-child="0" id="connector__84" start-node-id="node1__81" route="17,28,18,28,19,28,20,28,21,28,22,28,23,28,24,28,25,28," start-node-is-child="0" manual-route="0" end-node-id="node1__74"/>
+ <connector end-node-is-child="0" id="connector__86" start-node-parent="and__35" route="72,51,71,51,70,51,69,51,68,51,67,51,66,51,65,51,64,51,63,51,62,51,61,51,60,51,59,51,58,51,57,51,56,51,55,51,54,51,53,51,52,51,51,51,50,51,49,51,48,51,47,51,46,51,45,51,44,51,43,51,42,51,41,51,40,51,39,51,38,51,37,51,36,51,35,51,34,51,33,51,32,51,31,51,30,51,29,51,28,51,27,51,26,51,25,51,24,51,23,51,22,51,21,51,20,51,19,51,18,51,17,51,16,51,16,50,16,49,16,48,16,47,16,46,16,45,16,44,16,43,16,42,16,41,16,40,16,39,16,38,16,37,15,37," start-node-is-child="1" manual-route="0" start-node-cid="in2" end-node-id="node1__85"/>
+ <connector end-node-is-child="0" id="connector__87" start-node-parent="logic_input__1" route="15,37," start-node-is-child="1" manual-route="0" start-node-cid="p1" end-node-id="node1__85"/>
+ <connector end-node-is-child="0" id="connector__88" start-node-id="node1__85" route="15,37,16,37,17,37,18,37,19,37,20,37,21,37,22,37,23,37," start-node-is-child="0" manual-route="0" end-node-id="node1__70"/>
+ <node id="node1" y="108" x="540"/>
+ <node id="node1__56" y="196" x="540"/>
+ <node id="node1__60" y="292" x="540"/>
+ <node id="node1__66" y="228" x="300"/>
+ <node id="node1__70" y="300" x="188"/>
+ <node id="node1__74" y="228" x="204"/>
+ <node id="node1__78" y="300" x="316"/>
+ <node id="node1__81" y="228" x="140"/>
+ <node id="node1__85" y="300" x="124"/>
+</document>
