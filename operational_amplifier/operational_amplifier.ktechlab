@@ -1,0 +1,7 @@
+<!DOCTYPE KTechlab>
+<project>
+ <item url="simple.circuit" name="simple.circuit" type="File">
+  <linker library-dir="" linker-script="" other="" output-map-file="0" hex-format="inhx32"/>
+  <processing micro="P16F84" output="simple.hex"/>
+ </item>
+</project>
