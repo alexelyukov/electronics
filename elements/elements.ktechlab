@@ -1,51 +1,51 @@
 <!DOCTYPE KTechlab>
 <project>
- <item url="decoder.circuit" type="File" name="decoder.circuit">
-  <linker output-map-file="0" library-dir="" hex-format="inhx32" linker-script="" other=""/>
-  <processing micro="P16F84" output="decoder.hex"/>
+ <item name="decoder.circuit" type="File" url="decoder.circuit">
+  <linker output-map-file="0" other="" library-dir="" linker-script="" hex-format="inhx32"/>
+  <processing output="decoder.hex" micro="P16F84"/>
  </item>
- <item url="coder.circuit" type="File" name="coder.circuit">
-  <linker output-map-file="0" library-dir="" hex-format="inhx32" linker-script="" other=""/>
-  <processing micro="P16F84" output="coder.hex"/>
+ <item name="coder.circuit" type="File" url="coder.circuit">
+  <linker output-map-file="0" other="" library-dir="" linker-script="" hex-format="inhx32"/>
+  <processing output="coder.hex" micro="P16F84"/>
  </item>
- <item url="multiplexer.circuit" type="File" name="multiplexer.circuit">
-  <linker output-map-file="0" library-dir="" hex-format="inhx32" linker-script="" other=""/>
-  <processing micro="P16F84" output="multiplexer.hex"/>
+ <item name="multiplexer.circuit" type="File" url="multiplexer.circuit">
+  <linker output-map-file="0" other="" library-dir="" linker-script="" hex-format="inhx32"/>
+  <processing output="multiplexer.hex" micro="P16F84"/>
  </item>
- <item url="demultiplexer.circuit" type="File" name="demultiplexer.circuit">
-  <linker output-map-file="0" library-dir="" hex-format="inhx32" linker-script="" other=""/>
-  <processing micro="P16F84" output="demultiplexer.hex"/>
+ <item name="demultiplexer.circuit" type="File" url="demultiplexer.circuit">
+  <linker output-map-file="0" other="" library-dir="" linker-script="" hex-format="inhx32"/>
+  <processing output="demultiplexer.hex" micro="P16F84"/>
  </item>
- <item url="comparator.circuit" type="File" name="comparator.circuit">
-  <linker output-map-file="0" library-dir="" hex-format="inhx32" linker-script="" other=""/>
-  <processing micro="P16F84" output="comparator.hex"/>
+ <item name="comparator.circuit" type="File" url="comparator.circuit">
+  <linker output-map-file="0" other="" library-dir="" linker-script="" hex-format="inhx32"/>
+  <processing output="comparator.hex" micro="P16F84"/>
  </item>
- <item url="sum.circuit" type="File" name="sum.circuit">
-  <linker output-map-file="0" library-dir="" hex-format="inhx32" linker-script="" other=""/>
-  <processing micro="P16F84" output="sum.hex"/>
+ <item name="sum.circuit" type="File" url="sum.circuit">
+  <linker output-map-file="0" other="" library-dir="" linker-script="" hex-format="inhx32"/>
+  <processing output="sum.hex" micro="P16F84"/>
  </item>
- <item url="rs_trigger.circuit" type="File" name="rs_trigger.circuit">
-  <linker output-map-file="0" library-dir="" hex-format="inhx32" linker-script="" other=""/>
-  <processing micro="P16F84" output="rs_trigger.hex"/>
+ <item name="rs_trigger.circuit" type="File" url="rs_trigger.circuit">
+  <linker output-map-file="0" other="" library-dir="" linker-script="" hex-format="inhx32"/>
+  <processing output="rs_trigger.hex" micro="P16F84"/>
  </item>
- <item url="rs_trigger_sync.circuit" type="File" name="rs_trigger_sync.circuit">
-  <linker output-map-file="0" library-dir="" hex-format="inhx32" linker-script="" other=""/>
-  <processing micro="P16F84" output="rs_trigger_sync.hex"/>
+ <item name="rs_trigger_sync.circuit" type="File" url="rs_trigger_sync.circuit">
+  <linker output-map-file="0" other="" library-dir="" linker-script="" hex-format="inhx32"/>
+  <processing output="rs_trigger_sync.hex" micro="P16F84"/>
  </item>
- <item url="t_trigger.circuit" type="File" name="t_trigger.circuit">
-  <linker output-map-file="0" library-dir="" hex-format="inhx32" linker-script="" other=""/>
-  <processing micro="P16F84" output="t_trigger.hex"/>
+ <item name="t_trigger.circuit" type="File" url="t_trigger.circuit">
+  <linker output-map-file="0" other="" library-dir="" linker-script="" hex-format="inhx32"/>
+  <processing output="t_trigger.hex" micro="P16F84"/>
  </item>
- <item url="d_trigger.circuit" type="File" name="d_trigger.circuit">
-  <linker output-map-file="0" library-dir="" hex-format="inhx32" linker-script="" other=""/>
-  <processing micro="P16F84" output="d_trigger.hex"/>
+ <item name="d_trigger.circuit" type="File" url="d_trigger.circuit">
+  <linker output-map-file="0" other="" library-dir="" linker-script="" hex-format="inhx32"/>
+  <processing output="d_trigger.hex" micro="P16F84"/>
  </item>
- <item url="jk_trigger.circuit" type="File" name="jk_trigger.circuit">
-  <linker output-map-file="0" library-dir="" hex-format="inhx32" linker-script="" other=""/>
-  <processing micro="P16F84" output="jk_trigger.hex"/>
+ <item name="jk_trigger.circuit" type="File" url="jk_trigger.circuit">
+  <linker output-map-file="0" other="" library-dir="" linker-script="" hex-format="inhx32"/>
+  <processing output="jk_trigger.hex" micro="P16F84"/>
  </item>
- <item url="counter.circuit" type="File" name="counter.circuit">
-  <linker output-map-file="0" library-dir="" hex-format="inhx32" linker-script="" other=""/>
-  <processing micro="P16F84" output="counter.hex"/>
+ <item name="counter.circuit" type="File" url="counter.circuit">
+  <linker output-map-file="0" other="" library-dir="" linker-script="" hex-format="inhx32"/>
+  <processing output="counter.hex" micro="P16F84"/>
  </item>
 </project>

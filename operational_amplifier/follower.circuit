@@ -1,0 +1,24 @@
+<!DOCTYPE KTechlab>
+<document type="circuit">
+ <item angle="0" z="1" y="172" id="cell" type="ec/battery" flip="0" x="116">
+  <data value="5.00005" id="voltage" type="number"/>
+ </item>
+ <item angle="0" z="2" y="172" id="ground" type="ec/ground" flip="0" x="44"/>
+ <item angle="270" z="11" y="220" id="ground__92" type="ec/ground" flip="0" x="516"/>
+ <item angle="180" z="0" y="164" id="opamp" type="ec/opamp" flip="1" x="332"/>
+ <item angle="0" z="5" y="172" id="resistor" type="ec/resistor" flip="0" x="212">
+  <data value="10000" id="resistance" type="number"/>
+ </item>
+ <item angle="0" z="10" y="164" id="voltmeter" type="ec/voltmeter" flip="0" x="452">
+  <data value="0.001" id="0-minValue" type="number"/>
+  <data value="1000" id="1-maxValue" type="number"/>
+ </item>
+ <connector end-node-is-child="1" manual-route="0" start-node-cid="n1" route="23,21,22,21,21,21,20,21,19,21,18,21,17,21,16,21," start-node-is-child="1" id="connector" end-node-cid="p1" start-node-parent="resistor" end-node-parent="cell"/>
+ <connector end-node-is-child="0" manual-route="1" start-node-cid="n1" route="53,20,52,20,51,20,50,20,49,20,48,20,47,20," start-node-is-child="1" end-node-id="node1" id="connector__100" start-node-parent="voltmeter"/>
+ <connector end-node-is-child="1" manual-route="1" route="47,20,46,20,45,20,44,20," start-node-is-child="0" id="connector__101" start-node-id="node1" end-node-cid="p1" end-node-parent="opamp"/>
+ <connector end-node-is-child="1" manual-route="0" start-node-cid="p1" route="29,21,30,21,31,21,32,21,33,21,34,21,35,21,36,21,37,21,38,21," start-node-is-child="1" id="connector__102" end-node-cid="n1" start-node-parent="resistor" end-node-parent="opamp"/>
+ <connector end-node-is-child="1" manual-route="0" start-node-cid="p1" route="7,21,8,21,9,21,10,21,11,21,12,21," start-node-is-child="1" id="connector__14" end-node-cid="n1" start-node-parent="ground" end-node-parent="cell"/>
+ <connector end-node-is-child="1" manual-route="1" start-node-cid="p1" route="64,25,64,24,64,23,64,22,64,21,64,20,63,20,62,20,61,20,60,20,59,20," start-node-is-child="1" id="connector__94" end-node-cid="p1" start-node-parent="ground__92" end-node-parent="voltmeter"/>
+ <connector end-node-is-child="0" manual-route="1" start-node-cid="n2" route="38,19,37,19,37,18,37,17,37,16,38,16,39,16,40,16,41,16,42,16,43,16,44,16,45,16,46,16,47,16,47,17,47,18,47,19,47,20," start-node-is-child="1" end-node-id="node1" id="connector__99" start-node-parent="opamp"/>
+ <node y="164" id="node1" x="380"/>
+</document>

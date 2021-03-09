@@ -1,0 +1,47 @@
+<!DOCTYPE KTechlab>
+<document type="circuit">
+ <item angle="0" z="5" y="276" id="capacitor" type="ec/capacitor" flip="0" x="492">
+  <data value="1.00001e-06" id="Capacitance" type="number"/>
+ </item>
+ <item angle="0" z="1" y="340" id="ground" type="ec/ground" flip="0" x="60"/>
+ <item angle="270" z="9" y="452" id="ground__108" type="ec/ground" flip="0" x="260"/>
+ <item angle="270" z="3" y="428" id="ground__58" type="ec/ground" flip="0" x="452"/>
+ <item angle="270" z="4" y="404" id="ground__92" type="ec/ground" flip="0" x="684"/>
+ <item angle="180" z="0" y="348" id="opamp" type="ec/opamp" flip="1" x="500"/>
+ <item angle="0" z="2" y="340" id="resistor__47" type="ec/resistor" flip="0" x="356">
+  <data value="100000" id="resistance" type="number"/>
+ </item>
+ <item angle="0" z="6" y="340" id="voltage_signal" type="ec/voltage_signal" flip="0" x="108">
+  <data value="Peak" id="peak-rms" type="string"/>
+  <data value="1" id="frequency" type="number"/>
+  <data value="10.0001" id="voltage" type="number"/>
+ </item>
+ <item angle="0" z="7" y="348" id="voltageprobe" type="ec/voltageprobe" flip="0" x="612">
+  <data value="Linear" id="scaling" type="string"/>
+  <data value="0.1" id="lower_abs_value" type="number"/>
+  <data value="10.0001" id="upper_abs_value" type="number"/>
+  <data value="#b5002f" id="color" type="color"/>
+ </item>
+ <item angle="0" z="8" y="404" id="voltageprobe__99" type="ec/voltageprobe" flip="0" x="212">
+  <data value="Linear" id="scaling" type="string"/>
+  <data value="0.00500005" id="lower_abs_value" type="number"/>
+  <data value="10" id="upper_abs_value" type="number"/>
+  <data value="#539316" id="color" type="color"/>
+ </item>
+ <connector end-node-is-child="1" manual-route="0" start-node-cid="p1" route="32,54,32,53,32,52,32,51,32,50,31,50,30,50,29,50," start-node-is-child="1" id="connector" end-node-cid="p1" start-node-parent="ground__108" end-node-parent="voltageprobe__99"/>
+ <connector end-node-is-child="0" manual-route="1" start-node-cid="p1" route="63,34,64,34,65,34,66,34,67,34,68,34,68,35,68,36,68,37,68,38,68,39,68,40,68,41,68,42,68,43," start-node-is-child="1" end-node-id="node1" id="connector__114" start-node-parent="capacitor"/>
+ <connector end-node-is-child="0" manual-route="1" start-node-cid="n1" route="73,43,72,43,71,43,70,43,69,43,68,43," start-node-is-child="1" end-node-id="node1" id="connector__115" start-node-parent="voltageprobe"/>
+ <connector end-node-is-child="1" manual-route="1" route="68,43,67,43,66,43,65,43," start-node-is-child="0" id="connector__116" start-node-id="node1" end-node-cid="p1" end-node-parent="opamp"/>
+ <connector end-node-is-child="0" manual-route="0" start-node-cid="p1" route="47,42,48,42,49,42,50,42,51,42,52,42," start-node-is-child="1" end-node-id="node1__117" id="connector__118" start-node-parent="resistor__47"/>
+ <connector end-node-is-child="0" manual-route="0" start-node-cid="n1" route="59,34,58,34,57,34,56,34,55,34,54,34,53,34,53,35,53,36,53,37,53,38,53,39,53,40,53,41," start-node-is-child="1" end-node-id="node1__117" id="connector__119" start-node-parent="capacitor"/>
+ <connector end-node-is-child="1" manual-route="0" route="53,42,54,42,55,42,56,42,57,42,58,42," start-node-is-child="0" id="connector__120" start-node-id="node1__117" end-node-cid="n2" end-node-parent="opamp"/>
+ <connector end-node-is-child="0" manual-route="0" start-node-cid="n1" route="41,42,40,42,39,42,38,42,37,42,36,42,35,42,34,42,33,42,32,42,31,42,30,42,29,42,28,42,27,42,26,42,25,42,24,42,23,42,22,42," start-node-is-child="1" end-node-id="node1__121" id="connector__122" start-node-parent="resistor__47"/>
+ <connector end-node-is-child="0" manual-route="0" start-node-cid="n1" route="23,50,22,50,22,49,22,48,22,47,22,46,22,45,22,44,22,43,22,42," start-node-is-child="1" end-node-id="node1__121" id="connector__123" start-node-parent="voltageprobe__99"/>
+ <connector end-node-is-child="1" manual-route="0" route="22,42,21,42,20,42,19,42,18,42,17,42,16,42,15,42," start-node-is-child="0" id="connector__124" start-node-id="node1__121" end-node-cid="p1" end-node-parent="voltage_signal"/>
+ <connector end-node-is-child="1" manual-route="0" start-node-cid="n1" route="11,42,10,42,9,42," start-node-is-child="1" id="connector__85" end-node-cid="p1" start-node-parent="voltage_signal" end-node-parent="ground"/>
+ <connector end-node-is-child="1" manual-route="1" start-node-cid="p1" route="79,43,80,43,81,43,82,43,83,43,84,43,85,43,85,44,85,45,85,46,85,47,85,48," start-node-is-child="1" id="connector__95" end-node-cid="p1" start-node-parent="voltageprobe" end-node-parent="ground__92"/>
+ <connector end-node-is-child="1" manual-route="0" start-node-cid="p1" route="56,51,56,50,56,49,56,48,56,47,56,46,56,45,56,44,57,44,58,44,59,44," start-node-is-child="1" id="connector__96" end-node-cid="n1" start-node-parent="ground__58" end-node-parent="opamp"/>
+ <node y="348" id="node1" x="548"/>
+ <node y="340" id="node1__117" x="428"/>
+ <node y="340" id="node1__121" x="180"/>
+</document>
