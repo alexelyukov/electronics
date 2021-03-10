@@ -1,7 +1,31 @@
 <!DOCTYPE KTechlab>
 <project>
- <item url="simple.circuit" name="simple.circuit" type="File">
-  <linker library-dir="" linker-script="" other="" output-map-file="0" hex-format="inhx32"/>
+ <item name="simple.circuit" type="File" url="simple.circuit">
+  <linker hex-format="inhx32" linker-script="" other="" output-map-file="0" library-dir=""/>
   <processing micro="P16F84" output="simple.hex"/>
+ </item>
+ <item name="invertor.circuit" type="File" url="invertor.circuit">
+  <linker hex-format="inhx32" linker-script="" other="" output-map-file="0" library-dir=""/>
+  <processing micro="P16F84" output="invertor.hex"/>
+ </item>
+ <item name="comparator.circuit" type="File" url="comparator.circuit">
+  <linker hex-format="inhx32" linker-script="" other="" output-map-file="0" library-dir=""/>
+  <processing micro="P16F84" output="comparator.hex"/>
+ </item>
+ <item name="follower.circuit" type="File" url="follower.circuit">
+  <linker hex-format="inhx32" linker-script="" other="" output-map-file="0" library-dir=""/>
+  <processing micro="P16F84" output="follower.hex"/>
+ </item>
+ <item name="sum.circuit" type="File" url="sum.circuit">
+  <linker hex-format="inhx32" linker-script="" other="" output-map-file="0" library-dir=""/>
+  <processing micro="P16F84" output="sum.hex"/>
+ </item>
+ <item name="integ.circuit" type="File" url="integ.circuit">
+  <linker hex-format="inhx32" linker-script="" other="" output-map-file="0" library-dir=""/>
+  <processing micro="P16F84" output="integ.hex"/>
+ </item>
+ <item name="diff.circuit" type="File" url="diff.circuit">
+  <linker hex-format="inhx32" linker-script="" other="" output-map-file="0" library-dir=""/>
+  <processing micro="P16F84" output="diff.hex"/>
  </item>
 </project>
